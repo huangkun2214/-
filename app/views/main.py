@@ -21,7 +21,7 @@ def index():
     if form.validate_on_submit():
        if current_user.is_authenticated:
            print(current_user.get_id())
-           return 'dsadas'
+           return '1111111'
        else:
            return 'ssss'
 
